@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import Layout from "../../components/Layout/Layout";
-import "./Login.scss";
+import "./Login.scss"; 
 
 const Login = () => {
   const [loading, setLoading] = useState(true);
